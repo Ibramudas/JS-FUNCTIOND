@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">`
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+        </script>
+     
+    </head>
+    <body>
+        <div class="container-fluid bg-dark">
+        <nav class="nav-bar">
+            <pre style="font-size:30px; font-weight: bold;"><a href="h.html">Home</a> <a href="h.html">About us</a> <a href="h.html">Contact us</a> <a href="h.html">Support us</a></pre>        </nav>
+        </div>
+        <h1>JAVASCRIPT PROJECT</h1>
+        <h4>MULTIPLICATION</h4>
+        <button onclick="button()" type="button" class="btn btn-dark">CLICK HERE</button>
+        <h4 id="dy"></h4>
+        <h5>The using of multiplication sign have been used in different equations foe different equations solving problem </h5>
+        <h4>Examples</h4>
+        <ul>
+            <li>Solve the equation x^2+x+y^3 where x=5 and y=8 <button onclick="but()" type="button" class="btn btn-dark">See more</button></li>
+            <p id="h2"></p>
+            <li>Solve the equation x+x^3+y^2where x=6 and y=4 <button onclick="tut()" type="button" class="btn btn-warning">See more</button></li>
+            <p id="h3"></p>
+        </ul>
+        
+
+        <script>
+            var x=10;
+            var y=28;
+            var z=34;
+            var a=13;
+            var b=14;
+            function button()
+            {
+                document.getElementById("dy").innerHTML="the equation x * y is:" + x*y;
+            }
+        </script>
+    
+        <script>
+            var x=5;
+            var y=8;
+            function but()
+            {
+                document.getElementById("h2").innerHTML="This equation is solved by substituting the values of x and y into the equation therefore the answer is:"+ x*x*x + x*x + y*y;
+            }
+        </script>
+<script>
+    var x=6;
+    var y=4;
+    function tut()
+    {
+        document.getElementById("h3").innerHTML="This equation is solved by substituting the values of x and y into the equation therefore the answer is:"+ x + x*x*x + y*y;
+    }
+</script>
+
+    </body>
+</html>
